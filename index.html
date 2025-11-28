@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Documents</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="whether-card">
+    
+    <div class="search-box">
+      <input id="textInput" type="text" placeholder="Enter your city name">
+      <div class="svg">
+        <svg class="search-btn" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path d="M11 6C13.7614 6 16 8.23858 16 11M16.6588 16.6549L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="" stroke-width="" stroke-linecap="round" stroke-linejoin="round"></path>
+          </g>
+        </svg>
+      </div>
+    </div>
+    
+    <div class="weather-info">
+      <img src="rainy-day.png" class="weather-icon" alt="weather-icon">
+      <h1 class="temp">22°c</h1>
+      <h2 class="city-name">Jamalpur</h2>
+    </div>
+    
+    <div class="humidity-wind">
+      
+      <div class="humidity">
+        <svg width="124" height="124" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" transform="scale(-1, 1)">
+          <path class="wave" d="M.5,3.4c1.92,0,1.92.95,3.83.95S6.25,3.4,8.16,3.4s1.92.95,3.83.95,1.92-.95,3.83-.95,1.92.95,3.84.95,1.92-.95,3.84-.95"/>
+          <path class="wave" d="M.5,9.15c1.92,0,1.92.95,3.83.95s1.92-.95,3.83-.95,1.92.95,3.83.95,1.92-.95,3.83-.95,1.92.95,3.84.95,1.92-.95,3.84-.95"/>
+          <path class="wave" d="M.5,14.9c1.92,0,1.92.95,3.83.95s1.92-.95,3.83-.95,1.92.95,3.83.95,1.92-.95,3.83-.95,1.92.95,3.84.95,1.92-.95,3.84-.95"/>
+          <path class="wave" d="M.5,20.65c1.92,0,1.92,1,3.83,1s1.92-1,3.83-1,1.92,1,3.83,1,1.92-1,3.83-1,1.92,1,3.84,1,1.92-1,3.84-1"/>
+        </svg>
+        
+        <div class="humidity-info">
+          <h4 id="humidityParcent">50%</h4>
+          <h5>humidity</h5>
+        </div>
+      </div>
+      
+      <div class="wind-speed">
+        <img src="windy.png" alt="wind icon"/>
+        <div class="wind-info">
+          <h4 id="wind-speed-kph">15kp/h</h4>
+          <h5>wind speed</h5>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
